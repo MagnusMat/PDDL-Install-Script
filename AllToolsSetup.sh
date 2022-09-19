@@ -18,9 +18,9 @@ sudo snap install cmake --classic
 sudo apt -y update; sudo apt -y upgrade
 
 # Download Fast Downward and benchmarks
-git clone https://github.com/aibasel/downward.git Desktop/Fast-Downward
-git clone https://github.com/aibasel/downward-benchmarks.git Desktop/Fast-Downward/Benchmarks
-cd Desktop/Fast-Downward
+git clone https://github.com/aibasel/downward.git Fast-Downward
+git clone https://github.com/aibasel/downward-benchmarks.git Fast-Downward/Benchmarks
+cd Fast-Downward
 ./build.py
 
 # Create directory for holding binaries and scripts.
