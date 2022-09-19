@@ -3,7 +3,7 @@
 Download and install all three tools (Fast Downward, Lab, and FF) by running the _AllToolsSetup.sh_ script in this repository. It is assumed that the script is being run in the home directory in your terminal.
 
 ```bash
-wget -O - https://raw.githubusercontent.com/MagnusMat/Swarm-Robotics/master/Simulation/PDDL/AllToolsSetup.sh | bash
+wget -O - https://raw.githubusercontent.com/MagnusMat/PDDL-Install-Script/main/AllToolsSetup.sh | bash
 ```
 
 ## PDDL
@@ -34,7 +34,7 @@ You can use the [Fast Downward](https://www.fast-downward.org) solver locally. U
 You can run the _FastDownwardSetup.sh_ script in this repository. It is assumed that the script is being run in the home directory in your terminal.
 
 ```bash
-wget -O - https://raw.githubusercontent.com/MagnusMat/Swarm-Robotics/master/Simulation/PDDL/FastDownwardSetup.sh | bash
+wget -O - https://raw.githubusercontent.com/MagnusMat/PDDL-Install-Script/main/FastDownward/FastDownwardSetup.sh | bash
 ```
 
 Otherwise, follow the instructions at [the Fast Downward documentation page](https://www.fast-downward.org/ObtainingAndRunningFastDownward).
@@ -103,7 +103,7 @@ For usage, please use ```python3 ./fast-downward.py --help```. For good known do
 You can run the _LabSetup_ script in this repository. It is assumed that the script is being run in the home directory in your terminal and that Fast Downward is installed.
 
 ```bash
-wget -O - https://raw.githubusercontent.com/MagnusMat/Swarm-Robotics/master/Simulation/PDDL/LabSetup.sh | bash
+wget -O - https://raw.githubusercontent.com/MagnusMat/PDDL-Install-Script/main/DownwardLab/LabSetup.sh | bash
 ```
 
 Otherwise, follow the instructions at [the Lab documentation page](https://lab.readthedocs.io/en/stable/downward.tutorial.html).
@@ -117,7 +117,7 @@ You can use the [FF](https://fai.cs.uni-saarland.de/hoffmann/ff.html) planning s
 You can run the _FFSetup.sh_ script in this repository. It is assumed that the script is being run in the home directory in your terminal and that Fast Downward and Lab is installed.
 
 ```bash
-wget -O - https://raw.githubusercontent.com/MagnusMat/Swarm-Robotics/master/Simulation/PDDL/FFSetup.sh | bash
+wget -O - https://raw.githubusercontent.com/MagnusMat/PDDL-Install-Script/main/FF/FFSetup.sh | bash
 ```
 
 Otherwise, follow the instructions at [ai.mit.edu](http://www.ai.mit.edu/courses/16.412J/ff.html).

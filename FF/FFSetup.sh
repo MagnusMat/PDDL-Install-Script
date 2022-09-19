@@ -12,11 +12,8 @@ cd FF
 make
 
 # Setup Lab Files
-touch ff.py
-touch ff-parser.py
-
-wget -O ~/ff-parser.py
-wget -O ~/ff.py 
+wget -O ~/ff-parser.py https://raw.githubusercontent.com/MagnusMat/PDDL-Install-Script/main/FF/ff-parser.py
+wget -O ~/ff.py https://raw.githubusercontent.com/MagnusMat/PDDL-Install-Script/main/FF/ff.py
 
 # Cleanup
 cd ..
